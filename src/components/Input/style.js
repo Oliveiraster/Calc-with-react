@@ -18,4 +18,8 @@ input {
     text-align: end;
     border-radius: 8px;
 }
+
+input::placeholder{
+color:${props => props.theme.text_screen};
+}
 `
