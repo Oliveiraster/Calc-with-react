@@ -145,7 +145,7 @@ const App = () => {
                 <Button label={'-'} onClick={handleSubNumber} />
                 </Row>
                 <Row>
-                <Button label={'.'} />
+                <Button label={'.'} onClick={() => handleAddNumber('.')} />
                 <Button label={0} onClick={() => handleAddNumber('0')}/>
                 <Button label={'/'} onClick={handleDivNumber}/>
                 <Button label={'x'} onClick={handleMultNumber}/>
